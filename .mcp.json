@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "qgis-mars-mcp": {
+      "command": "python",
+      "args": [
+        "c:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\mcp\\qgis_mars_mcp_server.py"
+      ]
+    }
+  }
+}
