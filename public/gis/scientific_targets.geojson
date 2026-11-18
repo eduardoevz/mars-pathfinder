@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "name": "NASA Real Scientific Targets",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "target_id": "GALE-BOXWORK-2025",
+        "region_id": "GALE_MOUNT_SHARP",
+        "name": "Formaciones de Retículas (Boxwork) en Monte Sharp",
+        "mission": "MSL Curiosity (Agosto–Septiembre 2025) + MRO HiRISE",
+        "elevation_m": -3850,
+        "soi": 0.91
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.405,
+          -4.682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "target_id": "JEZERO-CHEYAVA-2024",
+        "region_id": "JEZERO_CRATER",
+        "name": "Cheyava Falls — Bright Angel (Manchas de Leopardo)",
+        "mission": "Mars 2020 Perseverance (Sol 1215, Julio 2024) + MRO",
+        "elevation_m": -2495,
+        "soi": 0.96
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.303,
+          18.444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "target_id": "JEZERO-MARGIN-CARB",
+        "region_id": "JEZERO_CRATER",
+        "name": "Unidad Marginal de Carbonatos y Paleo-Costa",
+        "mission": "Mars 2020 Perseverance (2023–2026) + CRISM + RIMFAX",
+        "elevation_m": -2380,
+        "soi": 0.89
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.358,
+          18.418
+        ]
+      }
+    }
+  ]
+}

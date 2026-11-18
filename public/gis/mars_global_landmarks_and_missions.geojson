@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mars Global Landmarks & NASA Missions",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "JEZERO_CRATER",
+        "name": "Jezero Crater (Perseverance / Mars 2020)",
+        "category": "ACTIVE_MISSION_REGION",
+        "elevation_m": -2540,
+        "instruments": "HiRISE, CRISM, CTX, PIXL, SHERLOC, Mastcam-Z, RIMFAX, MEDA",
+        "coverage": "HIGH_RES (0.25 m/px optical, 1.0 m/px DEM)",
+        "target_region_id": "JEZERO_CRATER"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.38,
+          18.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GALE_MOUNT_SHARP",
+        "name": "Gale Crater / Mount Sharp (Curiosity MSL 2025)",
+        "category": "ACTIVE_MISSION_REGION",
+        "elevation_m": -3850,
+        "instruments": "HiRISE, CRISM, Mastcam, MAHLI, ChemCam, APXS, RAD, REMS, DAN",
+        "coverage": "HIGH_RES (0.25 m/px optical, 1.0 m/px DEM)",
+        "target_region_id": "GALE_MOUNT_SHARP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.405,
+          -4.682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "OLYMPUS_MONS",
+        "name": "Olympus Mons (Shield Volcano, +21.2 km)",
+        "category": "LANDMARK",
+        "elevation_m": 21229,
+        "coverage": "MOLA/CTX/THEMIS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -133.8,
+          18.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "VALLES_MARINERIS",
+        "name": "Valles Marineris (4,000 km Canyon System)",
+        "category": "LANDMARK",
+        "elevation_m": -6800,
+        "coverage": "HiRISE Strips + CTX/MOLA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.2,
+          -13.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "HELLAS_PLANITIA",
+        "name": "Hellas Planitia (-8.2 km Impact Basin)",
+        "category": "LANDMARK",
+        "elevation_m": -8200,
+        "coverage": "MOLA/THEMIS/CTX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.0,
+          -42.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PATHFINDER_ARES",
+        "name": "Ares Vallis (Mars Pathfinder / Sojourner 1997)",
+        "category": "HISTORIC_MISSION",
+        "elevation_m": -3680,
+        "coverage": "IMP + Viking/CTX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -33.22,
+          19.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "VIKING_1",
+        "name": "Chryse Planitia (Viking 1 Lander 1976)",
+        "category": "HISTORIC_MISSION",
+        "elevation_m": -3620,
+        "coverage": "Viking/MOLA/CTX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.95,
+          22.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "INSIGHT_ELYSIUM",
+        "name": "Elysium Planitia (InSight Seismic Station)",
+        "category": "HISTORIC_MISSION",
+        "elevation_m": -2655,
+        "coverage": "SEIS/HP3 + HiRISE/CTX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.62,
+          4.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "OPPORTUNITY_MERIDIANI",
+        "name": "Meridiani Planum (Opportunity Rover)",
+        "category": "HISTORIC_MISSION",
+        "elevation_m": -1420,
+        "coverage": "Mini-TES/Pancam + CRISM/HiRISE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.53,
+          -1.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SPIRIT_GUSEV",
+        "name": "Gusev Crater (Spirit Rover)",
+        "category": "HISTORIC_MISSION",
+        "elevation_m": -1910,
+        "coverage": "Mössbauer/APXS + HiRISE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.47,
+          -14.57
+        ]
+      }
+    }
+  ]
+}
