@@ -1,0 +1,12 @@
+[general]
+name=MARS PATHFINDER MCP Bridge
+qgisMinimumVersion=3.0
+description=Live MCP Socket Bridge for MARS PATHFINDER Planetary GIS, NASA Mars Trek WMTS layers, and EVA Terrain Analytics
+version=1.0.0
+author=MARS PATHFINDER Team (NASA Space Apps 2026)
+email=pathfinder@mars.local
+about=Exposes a local TCP JSON-RPC/MCP bridge on 127.0.0.1:9876 inside QGIS Desktop to load projects, zoom to Gale/Jezero targets, inspect layers, and trigger GDAL/QGIS terrain analysis.
+category=Web
+tags=mars,nasa,mcp,3d,planetary,gis
+experimental=False
+deprecated=False
