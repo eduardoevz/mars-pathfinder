@@ -1,0 +1,152 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      background: #07090e;
+      font-family: "Inter", sans-serif;
+      color: #f8fafc;
+      overflow: hidden;
+    }
+    .grid-bg {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255, 87, 34, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 87, 34, 0.08) 1px, transparent 1px);
+      background-size: 64px 64px;
+    }
+    .pill {
+      position: absolute;
+      top: 68px;
+      left: 96px;
+      background: #ff5722;
+      color: #07090e;
+      font-family: "Space Mono", monospace;
+      font-weight: 700;
+      font-size: 22px;
+      letter-spacing: 2px;
+      padding: 10px 22px;
+      border-radius: 6px;
+    }
+    .title {
+      position: absolute;
+      top: 132px;
+      left: 96px;
+      width: 960px;
+      font-family: "Archivo Black", sans-serif;
+      font-size: 74px;
+      line-height: 1.02;
+      letter-spacing: -1px;
+      color: #ffffff;
+    }
+    .title span {
+      color: #ff5722;
+    }
+    .sub {
+      position: absolute;
+      top: 310px;
+      left: 96px;
+      width: 820px;
+      font-size: 30px;
+      line-height: 1.35;
+      color: #cbd5e1;
+    }
+    .photo-card {
+      position: absolute;
+      right: 110px;
+      top: 120px;
+      width: 680px;
+      height: 520px;
+      background: #f1f5f9;
+      padding: 18px 18px 64px 18px;
+      border-radius: 6px;
+      box-shadow: 0 28px 60px rgba(0, 0, 0, 0.75);
+      transform-origin: center center;
+    }
+    .photo-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 3px;
+    }
+    .photo-cap {
+      font-family: "Space Mono", monospace;
+      font-size: 20px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-top: 14px;
+      text-align: center;
+    }
+    .hazard-row {
+      position: absolute;
+      left: 96px;
+      bottom: 110px;
+      display: flex;
+      gap: 24px;
+    }
+    .hz {
+      background: #0f172a;
+      border: 2px solid #ef4444;
+      border-radius: 10px;
+      padding: 20px 26px;
+      width: 265px;
+    }
+    .hz-k {
+      font-family: "Space Mono", monospace;
+      font-size: 18px;
+      color: #f59e0b;
+      font-weight: 700;
+    }
+    .hz-v {
+      font-size: 28px;
+      font-weight: 800;
+      margin-top: 6px;
+      color: #ffffff;
+    }
+  </style>
+  <div id="root" data-composition-id="s1_problem" data-width="1920" data-height="1080">
+    <div id="s1-bg" class="grid-bg clip" data-start="0" data-duration="5"></div>
+    <div id="s1-pill" class="pill clip" data-layout-ignore data-start="0.05" data-duration="4.95">01 · THE PROBLEM (0–5s)</div>
+    <div id="s1-title" class="title clip" data-start="0.15" data-duration="4.85">
+      MARS IS DEADLY FOR <span>FLAT MAPS</span>
+    </div>
+    <div id="s1-sub" class="sub clip" data-start="0.5" data-duration="4.5">
+      Astronauts cannot plan EVAs with 2D imagery alone: hidden slopes, sand traps, radio shadows, and O₂ limits turn short routes lethal.
+    </div>
+
+    <div id="s1-card1" class="photo-card clip" data-layout-ignore data-start="0.3" data-duration="2.2">
+      <img src="assets/img/nasa_viking.jpg" alt="Mars Global Surface" />
+      <div class="photo-cap">ORBITAL BLINDSPOTS · MOLA 463 m/px vs HiRISE 0.25 m/px</div>
+    </div>
+    <div id="s1-card2" class="photo-card clip" data-layout-ignore data-start="2.4" data-duration="2.6">
+      <img src="assets/img/globe_thermal.png" alt="Mars Thermal Hazard" />
+      <div class="photo-cap">THERMAL INERTIA · LOOSE SAND TRAPS &amp; RADIATION ZONES</div>
+    </div>
+
+    <div id="s1-hz1" class="hazard-row clip" data-layout-ignore data-start="1.0" data-duration="4.0">
+      <div class="hz">
+        <div class="hz-k">SLOPE LIMIT</div>
+        <div class="hz-v">&gt; 15° HAZARD</div>
+      </div>
+      <div class="hz">
+        <div class="hz-k">LIFE SUPPORT</div>
+        <div class="hz-v">BINGO O₂ RISK</div>
+      </div>
+      <div class="hz">
+        <div class="hz-k">COMMS / RAD</div>
+        <div class="hz-v">LoS BLACKOUTS</div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#s1-pill", { opacity: 0, y: -24 }, { opacity: 1, y: 0, duration: 0.25, ease: "steps(2)" }, 0.05);
+    tl.fromTo("#s1-title", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.35, ease: "steps(3)" }, 0.15);
+    tl.fromTo("#s1-sub", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.3, ease: "steps(2)" }, 0.5);
+    tl.fromTo("#s1-card1", { opacity: 0, rotation: -6, scale: 0.9 }, { opacity: 1, rotation: -3, scale: 1, duration: 0.3, ease: "steps(3)" }, 0.3);
+    tl.fromTo("#s1-card2", { opacity: 0, rotation: 6, scale: 0.9 }, { opacity: 1, rotation: 2.5, scale: 1, duration: 0.3, ease: "steps(3)" }, 2.4);
+    tl.fromTo("#s1-hz1", { opacity: 0, y: 36 }, { opacity: 1, y: 0, duration: 0.35, ease: "steps(3)" }, 1.0);
+    window.__timelines["s1_problem"] = tl;
+  </script>
+</template>

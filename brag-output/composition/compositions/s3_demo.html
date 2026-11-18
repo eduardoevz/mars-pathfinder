@@ -1,0 +1,145 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      background: #07090e;
+      font-family: "Inter", sans-serif;
+      color: #ffffff;
+      overflow: hidden;
+    }
+    .frame-box {
+      position: absolute;
+      inset: 44px 80px 132px 80px;
+      border: 4px solid #f8fafc;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #07090e;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.85);
+    }
+    .frame-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform-origin: center center;
+    }
+    .hud-top {
+      position: absolute;
+      top: 64px;
+      left: 104px;
+      background: rgba(7, 9, 14, 0.92);
+      border: 2px solid #00f0ff;
+      color: #00f0ff;
+      font-family: "Space Mono", monospace;
+      font-weight: 700;
+      font-size: 24px;
+      padding: 10px 22px;
+      border-radius: 6px;
+      z-index: 20;
+    }
+    .url-tag {
+      position: absolute;
+      top: 64px;
+      right: 104px;
+      background: rgba(7, 9, 14, 0.92);
+      border: 2px solid #10b981;
+      color: #10b981;
+      font-family: "Space Mono", monospace;
+      font-weight: 700;
+      font-size: 22px;
+      padding: 10px 20px;
+      border-radius: 6px;
+      z-index: 20;
+    }
+    .callout {
+      position: absolute;
+      bottom: 162px;
+      right: 112px;
+      background: #ff5722;
+      color: #07090e;
+      font-family: "Space Mono", monospace;
+      font-weight: 700;
+      font-size: 28px;
+      padding: 12px 24px;
+      border-radius: 8px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+      z-index: 25;
+    }
+    .caption-bar {
+      position: absolute;
+      bottom: 42px;
+      left: 80px;
+      right: 80px;
+      height: 70px;
+      background: #0f172a;
+      border: 2px solid #334155;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 28px;
+      font-family: "Space Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      z-index: 20;
+    }
+    .tag-r {
+      color: #00f0ff;
+    }
+  </style>
+  <div id="root" data-composition-id="s3_demo" data-width="1920" data-height="1080">
+    <div id="s3-hud" class="hud-top clip" data-layout-ignore data-start="0.05" data-duration="9.95">03 · LIVE DEMO (15–25s)</div>
+    <div id="s3-url" class="url-tag clip" data-layout-ignore data-start="0.05" data-duration="9.95">mars-beta-fawn.vercel.app/mission-control</div>
+
+    <div class="frame-box">
+      <img id="mc-1" class="frame-img clip" data-start="0.0" data-duration="2.0" src="assets/img/mc_1_overview.png" alt="Mission Control Overview" />
+      <img id="mc-2" class="frame-img clip" data-start="2.0" data-duration="2.0" src="assets/img/mc_2_3d_terrain.png" alt="3D HiRISE Terrain" />
+      <img id="mc-3" class="frame-img clip" data-start="4.0" data-duration="2.0" src="assets/img/mc_3_layers.png" alt="Safety Layers" />
+      <img id="mc-4" class="frame-img clip" data-start="6.0" data-duration="2.0" src="assets/img/mc_4_eva_plan.png" alt="EVA Consumables Planner" />
+      <img id="mc-5" class="frame-img clip" data-start="8.0" data-duration="2.0" src="assets/img/mc_5_hud.png" alt="Astronaut First-Person HUD" />
+    </div>
+
+    <div id="co-1" class="callout clip" data-start="0.2" data-duration="1.8">SOI 0.945 · CHEYAVA FALLS</div>
+    <div id="co-2" class="callout clip" data-start="2.1" data-duration="1.9">3D HiRISE DTM · 2× RELIEF</div>
+    <div id="co-3" class="callout clip" data-start="4.1" data-duration="1.9">TRAVERSABILITY + RADIO SHADOW</div>
+    <div id="co-4" class="callout clip" data-start="6.1" data-duration="1.9">ROUTE C · 3.07 km · SENT TO HUD</div>
+    <div id="co-5" class="callout clip" data-start="8.1" data-duration="1.9">1ST-PERSON VISOR HUD · 100% O₂</div>
+
+    <div id="cap-1" class="caption-bar clip" data-start="0.0" data-duration="2.0">
+      <span>MISSION CONTROL · TARGET RANKING &amp; ROUTES A / B / C</span>
+      <span class="tag-r">JEZERO</span>
+    </div>
+    <div id="cap-2" class="caption-bar clip" data-start="2.0" data-duration="2.0">
+      <span>INTERACTIVE 3D WEBGL · HiRISE DRAPED OVER DTM</span>
+      <span class="tag-r">RELIEF 2×</span>
+    </div>
+    <div id="cap-3" class="caption-bar clip" data-start="4.0" data-duration="2.0">
+      <span>SAFETY LAYERS · COST SURFACE &amp; COMM BLACKOUTS</span>
+      <span class="tag-r">HAZARD MAP</span>
+    </div>
+    <div id="cap-4" class="caption-bar clip" data-start="6.0" data-duration="2.0">
+      <span>PANDOLF O₂ MODEL · 363 W · PLAN SENT TO HUD</span>
+      <span class="tag-r">EVA PLAN</span>
+    </div>
+    <div id="cap-5" class="caption-bar clip" data-start="8.0" data-duration="2.0">
+      <span>ASTRONAUT FIELD HUD · LIVE TELEMETRY &amp; FIELD LOG</span>
+      <span class="tag-r">LIVE SYNC</span>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#s3-hud", { opacity: 0 }, { opacity: 1, duration: 0.15, ease: "steps(1)" }, 0.05);
+    tl.fromTo("#mc-1", { scale: 1.0 }, { scale: 1.06, duration: 1.9, ease: "none" }, 0.0);
+    tl.fromTo("#mc-2", { scale: 1.04 }, { scale: 1.0, duration: 1.9, ease: "none" }, 2.0);
+    tl.fromTo("#mc-3", { scale: 1.0 }, { scale: 1.06, duration: 1.9, ease: "none" }, 4.0);
+    tl.fromTo("#mc-4", { scale: 1.04 }, { scale: 1.0, duration: 1.9, ease: "none" }, 6.0);
+    tl.fromTo("#mc-5", { scale: 1.0 }, { scale: 1.06, duration: 1.9, ease: "none" }, 8.0);
+    for (let i = 1; i <= 5; i++) {
+      const t0 = (i - 1) * 2.0 + 0.1;
+      tl.fromTo("#co-" + i, { opacity: 0, y: 20, scale: 0.9 }, { opacity: 1, y: 0, scale: 1, duration: 0.2, ease: "steps(2)" }, t0);
+    }
+    window.__timelines["s3_demo"] = tl;
+  </script>
+</template>

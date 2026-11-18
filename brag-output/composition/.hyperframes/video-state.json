@@ -1,0 +1,610 @@
+{
+  "version": 1,
+  "historyId": "d4630592-fdb3-447c-a1fe-fe8c0859e560",
+  "currentRevision": "8e46119c-446a-491f-9f8c-404488c1e497",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\26\\268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a"
+    },
+    "CLAUDE.md": {
+      "hash": "268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\26\\268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a"
+    },
+    "assets/img/eva_1p_1.png": {
+      "hash": "dcaeb6a23e54b54e3587c6ad0a4b2b431ce3b928d0bf05fdb6b9a02f27188fd6",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\dc\\dcaeb6a23e54b54e3587c6ad0a4b2b431ce3b928d0bf05fdb6b9a02f27188fd6"
+    },
+    "assets/img/eva_1p_2.png": {
+      "hash": "d5e2ec6745a6c5c7056db8a415d894ba478d8cb698bc6f954c949b0281639ff2",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\d5\\d5e2ec6745a6c5c7056db8a415d894ba478d8cb698bc6f954c949b0281639ff2"
+    },
+    "assets/img/eva_trans.png": {
+      "hash": "9991bf63884ec5baf6d24c1cc414852ab5cbbf7d819ea9c84d6b886618982b6b",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\99\\9991bf63884ec5baf6d24c1cc414852ab5cbbf7d819ea9c84d6b886618982b6b"
+    },
+    "assets/img/gale_slope.png": {
+      "hash": "aaa119fef18a2e53b15e1da4bd629797c5761ba9c36c71671f5c70ddbd38f94a",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\aa\\aaa119fef18a2e53b15e1da4bd629797c5761ba9c36c71671f5c70ddbd38f94a"
+    },
+    "assets/img/globe_geology.png": {
+      "hash": "28cd74f689b399c674b09d67c78df82c2d95d40c5a6c65744f412132718c8201",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\28\\28cd74f689b399c674b09d67c78df82c2d95d40c5a6c65744f412132718c8201"
+    },
+    "assets/img/globe_mola.png": {
+      "hash": "68d23f8e496a4010daf9d7686528c217614fee07424c1671bcc48a7b2c7abd3b",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\68\\68d23f8e496a4010daf9d7686528c217614fee07424c1671bcc48a7b2c7abd3b"
+    },
+    "assets/img/globe_thermal.png": {
+      "hash": "5255b3f2769ce2915743fd1f46ed0c827821011fc397930ce08e0563d0ddb0ad",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\52\\5255b3f2769ce2915743fd1f46ed0c827821011fc397930ce08e0563d0ddb0ad"
+    },
+    "assets/img/globe_viking.png": {
+      "hash": "a728ac978a561edeb0cc9f4202cf9f3ea3665b08c33ddf4581f610eba8d8fe10",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\a7\\a728ac978a561edeb0cc9f4202cf9f3ea3665b08c33ddf4581f610eba8d8fe10"
+    },
+    "assets/img/jezero_mola.png": {
+      "hash": "ae84a9e6ecc9139475fb64262e6752f79e869947d281bbe0395637f302e70736",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\ae\\ae84a9e6ecc9139475fb64262e6752f79e869947d281bbe0395637f302e70736"
+    },
+    "assets/img/nasa_gale.jpg": {
+      "hash": "7e6cebc4e17f7846226cbd2769d3a85c925c8c29d178334df42d21214796eceb",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\7e\\7e6cebc4e17f7846226cbd2769d3a85c925c8c29d178334df42d21214796eceb"
+    },
+    "assets/img/nasa_jezero.jpg": {
+      "hash": "d7f99dfd0cf49ebb9817cde4b4763b803717abb116e9c07f28c61642d8a42bb2",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\d7\\d7f99dfd0cf49ebb9817cde4b4763b803717abb116e9c07f28c61642d8a42bb2"
+    },
+    "assets/img/nasa_viking.jpg": {
+      "hash": "e66a761b715c238c3527c93b173b7f02ad85a9a712da266bb1dcd0c02c0ce45f",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\e6\\e66a761b715c238c3527c93b173b7f02ad85a9a712da266bb1dcd0c02c0ce45f"
+    },
+    "assets/img/olympus_slope.png": {
+      "hash": "ccad2cd3d81cde7753b17df2a8154a08cceeda20cd1f93d962be9f61ff97da55",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\cc\\ccad2cd3d81cde7753b17df2a8154a08cceeda20cd1f93d962be9f61ff97da55"
+    },
+    "assets/sfx/slide1.ogg": {
+      "hash": "006cf9822d15d7063f8899e56041f41646df30adb6fbd8b974ee5d5420012690",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\00\\006cf9822d15d7063f8899e56041f41646df30adb6fbd8b974ee5d5420012690"
+    },
+    "assets/sfx/snap1.ogg": {
+      "hash": "d8f26c33a665dcbdcc6f632f6050bc9dd548feb0d4942d4547615926d3926810",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\d8\\d8f26c33a665dcbdcc6f632f6050bc9dd548feb0d4942d4547615926d3926810"
+    },
+    "assets/sfx/snap2.ogg": {
+      "hash": "903d5050718595e87864dd755643b476ab1a5533080dcc2dddc72570d33ba9f8",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\90\\903d5050718595e87864dd755643b476ab1a5533080dcc2dddc72570d33ba9f8"
+    },
+    "assets/sfx/switch1.ogg": {
+      "hash": "efdd1d1e2904fb2d81259cd96bb80101caceae94be02baa4b5310714a6708b19",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\ef\\efdd1d1e2904fb2d81259cd96bb80101caceae94be02baa4b5310714a6708b19"
+    },
+    "assets/sfx/switch2.ogg": {
+      "hash": "aa8ad6e4745e87c84c24a0335e0e0f8629ccbbc474ccfd544fe07d7f3a1b2280",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\aa\\aa8ad6e4745e87c84c24a0335e0e0f8629ccbbc474ccfd544fe07d7f3a1b2280"
+    },
+    "compositions/s1_problem.html": {
+      "hash": "6572951582ea49b89a72997b0bc50309ea065f53d24979bf572f2668d963a0ad",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\65\\6572951582ea49b89a72997b0bc50309ea065f53d24979bf572f2668d963a0ad"
+    },
+    "compositions/s2_solution.html": {
+      "hash": "8cf83f35df83bb00c3159844c8ac506053564d531dc9a305939ec5f6d893c720",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\8c\\8cf83f35df83bb00c3159844c8ac506053564d531dc9a305939ec5f6d893c720"
+    },
+    "compositions/s3_demo.html": {
+      "hash": "6e5856763a283f6994f2d9aea01931205c093e43f5a6689e9d3513102d5a9384",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\6e\\6e5856763a283f6994f2d9aea01931205c093e43f5a6689e9d3513102d5a9384"
+    },
+    "compositions/s4_impact.html": {
+      "hash": "13e4cbbabd251cc13e9ece3391ba4e2756bce4f65179ec7c207233bcbaefb836",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\13\\13e4cbbabd251cc13e9ece3391ba4e2756bce4f65179ec7c207233bcbaefb836"
+    },
+    "hyperframes.json": {
+      "hash": "35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\35\\35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7"
+    },
+    "index.html": {
+      "hash": "aa71560aac0522cd098c8826f9f02d2f9b50d47e14a1a36888678bb070b8807a",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\aa\\aa71560aac0522cd098c8826f9f02d2f9b50d47e14a1a36888678bb070b8807a"
+    },
+    "meta.json": {
+      "hash": "a745afba1db381b8589dc33e98f0494fa5a0e304c711fb52c1a019a5177af955",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\a7\\a745afba1db381b8589dc33e98f0494fa5a0e304c711fb52c1a019a5177af955"
+    },
+    "package.json": {
+      "hash": "2aeca4003e9b10be10c5355a27f298171b01749f4ac8f124057954642bc180a8",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\2a\\2aeca4003e9b10be10c5355a27f298171b01749f4ac8f124057954642bc180a8"
+    },
+    "assets/img/eva_3p_1.png": {
+      "hash": "b39e192ae6d75b36a910f3718a1f765c78996de49c1081dce1ea06bd6a44cb0a",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\b3\\b39e192ae6d75b36a910f3718a1f765c78996de49c1081dce1ea06bd6a44cb0a"
+    },
+    "assets/img/eva_3p_2.png": {
+      "hash": "176c05800c9a0477001366f0b840d39b99117095be4507a91eebeee12f143984",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\17\\176c05800c9a0477001366f0b840d39b99117095be4507a91eebeee12f143984"
+    },
+    "assets/img/eva_3p_3.png": {
+      "hash": "f916e1b34a1aad461d04487f54032a9aaccdeaea98930b1b786e6c0d9f880701",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\f9\\f916e1b34a1aad461d04487f54032a9aaccdeaea98930b1b786e6c0d9f880701"
+    },
+    "assets/img/gale_hirise.png": {
+      "hash": "1e328a79b5801de375b36f68903e57d65ccc9144996c2a25e8b5618580d248f8",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\1e\\1e328a79b5801de375b36f68903e57d65ccc9144996c2a25e8b5618580d248f8"
+    },
+    "assets/img/hellas_sand.png": {
+      "hash": "f209f8d14509da658d830c97245b99712f38f61af070426c66d1559a7754c290",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\f2\\f209f8d14509da658d830c97245b99712f38f61af070426c66d1559a7754c290"
+    },
+    "assets/img/insight_los.png": {
+      "hash": "5a7d596fbb6bdefeef8293efce5992ff280161c86b6bfe9a5488c3c385bdc2f9",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\5a\\5a7d596fbb6bdefeef8293efce5992ff280161c86b6bfe9a5488c3c385bdc2f9"
+    },
+    "assets/img/jezero_hirise.png": {
+      "hash": "f7a09c1937e14d7d73c931759534ad4fe8bf575ca2a9c690e88341995f8a4f65",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\f7\\f7a09c1937e14d7d73c931759534ad4fe8bf575ca2a9c690e88341995f8a4f65"
+    },
+    "assets/img/valles_mineral.png": {
+      "hash": "95eb78120c392a0573b9742cdd6aa9b7ea83d5b1fb1ff2a06056e3779e91497c",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\95\\95eb78120c392a0573b9742cdd6aa9b7ea83d5b1fb1ff2a06056e3779e91497c"
+    },
+    "assets/music/bg.mp3": {
+      "hash": "f9912f2c962ada1e579f5ccc5a7d854d67e5e81ee96a7dd8c885a8480ae58d09",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\f9\\f9912f2c962ada1e579f5ccc5a7d854d67e5e81ee96a7dd8c885a8480ae58d09"
+    },
+    "assets/img/mc_1_overview.png": {
+      "hash": "e5713ad29a190a4469c7a63ede2eae07847d2cede94bb52a526d0b4ba3054d58",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\e5\\e5713ad29a190a4469c7a63ede2eae07847d2cede94bb52a526d0b4ba3054d58"
+    },
+    "assets/img/mc_2_3d_terrain.png": {
+      "hash": "6b8b4601e2d937761e7ba266a510c97a2fe82825dd00c905cefd1f48c275b5bd",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\6b\\6b8b4601e2d937761e7ba266a510c97a2fe82825dd00c905cefd1f48c275b5bd"
+    },
+    "assets/img/mc_3_layers.png": {
+      "hash": "073a82e89c1daeb345d090b92ab0fac197354c9770f99954414c78c6209fb3c3",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\07\\073a82e89c1daeb345d090b92ab0fac197354c9770f99954414c78c6209fb3c3"
+    },
+    "assets/img/mc_4_eva_plan.png": {
+      "hash": "6c1726f89c9c27c2d87ee6e8bd9ca8b59612d0d65c13521ea82977a3d2b900c2",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\6c\\6c1726f89c9c27c2d87ee6e8bd9ca8b59612d0d65c13521ea82977a3d2b900c2"
+    },
+    "assets/img/mc_5_hud.png": {
+      "hash": "e0fecd3ef5c96a26b6614bcef5d323bf5c71198d84071bb9ba02cd0b1f8e7597",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\e0\\e0fecd3ef5c96a26b6614bcef5d323bf5c71198d84071bb9ba02cd0b1f8e7597"
+    },
+    "assets/voiceover.mp3": {
+      "hash": "114b12e19465c74381e3e9d7057aabebe6071e5660c8e2c5e530d450e614de8e",
+      "content": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\11\\114b12e19465c74381e3e9d7057aabebe6071e5660c8e2c5e530d450e614de8e"
+    }
+  },
+  "revisions": {
+    "38a17028-c071-4154-a55e-46e5e24cd04a": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794727742109,
+      "endedAt": 1794727742302,
+      "files": {
+        "compositions/s1_problem.html": {
+          "before": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\ab\\ab78dbea71ba0abe1798ba2b2dc0d0bf48cffd8e6b8b68b0d6fa81f25c91a6ab",
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\65\\6572951582ea49b89a72997b0bc50309ea065f53d24979bf572f2668d963a0ad"
+        },
+        "compositions/s2_solution.html": {
+          "before": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\2c\\2ce2599795d5bef8369d9c774a86882ed6ba28da496b58ca26bcb752f67a48bc",
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\72\\72c2a333d3325a34b1383906af54a722736a1a94110f151336d8ad605a93709a"
+        },
+        "compositions/s3_demo.html": {
+          "before": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\54\\5459c2232c5b6e1976018fbd610d89f7965a21df83750574137b13b2b9c9a8b0",
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\56\\56e7ad9c8ed2969f45f0b224da000ecf1d36da625499995154ad135f654ec5d4"
+        },
+        "compositions/s4_impact.html": {
+          "before": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\b8\\b86cb20a3fe7176525ff8fed5f34a2efd976c155de6c707b4ec3e4ec4981919b",
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\44\\4489c21306b818a5e3da5c27e9427a9e64e78b7f01ae9d988723216dafea9b65"
+        },
+        "index.html": {
+          "before": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\85\\85c494c8a7d2355584dc35c48e04701b088ca88f392907bd8b998574553e9f19",
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\f2\\f2c45037525f744fd81d5aa453154016a38c6e4b5dcb07c68867db54b5efdaee"
+        }
+      }
+    },
+    "8e46119c-446a-491f-9f8c-404488c1e497": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794744653417,
+      "endedAt": 1794744653662,
+      "files": {
+        "assets/img/mc_1_overview.png": {
+          "before": null,
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\e5\\e5713ad29a190a4469c7a63ede2eae07847d2cede94bb52a526d0b4ba3054d58"
+        },
+        "assets/img/mc_2_3d_terrain.png": {
+          "before": null,
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\6b\\6b8b4601e2d937761e7ba266a510c97a2fe82825dd00c905cefd1f48c275b5bd"
+        },
+        "assets/img/mc_3_layers.png": {
+          "before": null,
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\07\\073a82e89c1daeb345d090b92ab0fac197354c9770f99954414c78c6209fb3c3"
+        },
+        "assets/img/mc_4_eva_plan.png": {
+          "before": null,
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\6c\\6c1726f89c9c27c2d87ee6e8bd9ca8b59612d0d65c13521ea82977a3d2b900c2"
+        },
+        "assets/img/mc_5_hud.png": {
+          "before": null,
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\e0\\e0fecd3ef5c96a26b6614bcef5d323bf5c71198d84071bb9ba02cd0b1f8e7597"
+        },
+        "assets/voiceover.mp3": {
+          "before": null,
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\11\\114b12e19465c74381e3e9d7057aabebe6071e5660c8e2c5e530d450e614de8e"
+        },
+        "compositions/s2_solution.html": {
+          "before": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\72\\72c2a333d3325a34b1383906af54a722736a1a94110f151336d8ad605a93709a",
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\8c\\8cf83f35df83bb00c3159844c8ac506053564d531dc9a305939ec5f6d893c720"
+        },
+        "compositions/s3_demo.html": {
+          "before": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\56\\56e7ad9c8ed2969f45f0b224da000ecf1d36da625499995154ad135f654ec5d4",
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\6e\\6e5856763a283f6994f2d9aea01931205c093e43f5a6689e9d3513102d5a9384"
+        },
+        "compositions/s4_impact.html": {
+          "before": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\44\\4489c21306b818a5e3da5c27e9427a9e64e78b7f01ae9d988723216dafea9b65",
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\13\\13e4cbbabd251cc13e9ece3391ba4e2756bce4f65179ec7c207233bcbaefb836"
+        },
+        "index.html": {
+          "before": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\f2\\f2c45037525f744fd81d5aa453154016a38c6e4b5dcb07c68867db54b5efdaee",
+          "after": "C:\\Users\\eduem\\.cache\\hyperframes\\history\\d4630592-fdb3-447c-a1fe-fe8c0859e560\\blobs\\aa\\aa71560aac0522cd098c8826f9f02d2f9b50d47e14a1a36888678bb070b8807a"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "8e46119c-446a-491f-9f8c-404488c1e497",
+      "id": "70bcbdc0-ec07-4d71-b4f6-a1fd24b24bb0"
+    },
+    "revisions": {
+      "38a17028-c071-4154-a55e-46e5e24cd04a": [
+        {
+          "id": "be42dd91-d7af-432a-b2dd-b0f09ed80965",
+          "scope": "project",
+          "report": "C:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\composition\\.hyperframes\\artifacts\\checks\\be42dd91-d7af-432a-b2dd-b0f09ed80965.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794727762618,
+          "contentHash": "12333351325307ba411d6f5cd75cc7935d5ff4db6a2d8798c4c36f76cd2daa6f",
+          "revision": "38a17028-c071-4154-a55e-46e5e24cd04a",
+          "inputFingerprint": "bb143ff5bb69b8828df77e1a07e930ed4e3f777a09355f95da50b28a6dd27c8b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "8e46119c-446a-491f-9f8c-404488c1e497": [
+        {
+          "id": "70bcbdc0-ec07-4d71-b4f6-a1fd24b24bb0",
+          "scope": "project",
+          "report": "C:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\composition\\.hyperframes\\artifacts\\checks\\70bcbdc0-ec07-4d71-b4f6-a1fd24b24bb0.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794744681480,
+          "contentHash": "1251700ae30894fd86ce5652aeeff6880bdfa97c75991758a846208075c8d530",
+          "revision": "8e46119c-446a-491f-9f8c-404488c1e497",
+          "inputFingerprint": "3163b2cee7f3f543cf325ef0aa1eef20eb6d1c9a305abc06e35b6e05f59356e0",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "569b2d78-388d-452a-a3a8-abbddc51d28c",
+        "scope": "project",
+        "report": "C:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\composition\\.hyperframes\\artifacts\\checks\\569b2d78-388d-452a-a3a8-abbddc51d28c.json",
+        "metadata": {
+          "ok": false,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794727692516,
+        "contentHash": "a2d9f952c69d0a84da44c0b2346c50505fdcb82eb7906979ef5dafb89d800905",
+        "revision": null,
+        "inputFingerprint": "f2edb30615017815a4cb2a6df88c12c445f1ab1f44b9c2fb73684c4c179f6243",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "8e46119c-446a-491f-9f8c-404488c1e497",
+      "id": "c42c3ab5-19d2-47c1-a5b4-49243a4f593f-4"
+    },
+    "revisions": {
+      "38a17028-c071-4154-a55e-46e5e24cd04a": [
+        {
+          "scope": "full",
+          "id": "230c9df5-2b84-41ab-b4ac-2c7768decffb-0",
+          "image": "c:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\snaps\\frame-00-at-1.5s.png",
+          "time": 1.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794727881253,
+          "contentHash": "81c253394f99b0dc69dd8759bfdc90fbff5305ee230a23b658950c4ebbcdc0a8",
+          "revision": "38a17028-c071-4154-a55e-46e5e24cd04a",
+          "inputFingerprint": "bb143ff5bb69b8828df77e1a07e930ed4e3f777a09355f95da50b28a6dd27c8b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "230c9df5-2b84-41ab-b4ac-2c7768decffb-1",
+          "image": "c:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\snaps\\frame-01-at-8s.png",
+          "time": 8,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794727881253,
+          "contentHash": "4ddb76e6e2d49ca032b6cf209fd50baa04546718a18cddfbadc1b010f4dbdee8",
+          "revision": "38a17028-c071-4154-a55e-46e5e24cd04a",
+          "inputFingerprint": "bb143ff5bb69b8828df77e1a07e930ed4e3f777a09355f95da50b28a6dd27c8b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "230c9df5-2b84-41ab-b4ac-2c7768decffb-2",
+          "image": "c:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\snaps\\frame-02-at-18s.png",
+          "time": 18,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794727881253,
+          "contentHash": "1198f996b6f1c8c81599af33f705d6ad6db15d6d7dcd3d9ab7c9fc6fdf396020",
+          "revision": "38a17028-c071-4154-a55e-46e5e24cd04a",
+          "inputFingerprint": "bb143ff5bb69b8828df77e1a07e930ed4e3f777a09355f95da50b28a6dd27c8b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "230c9df5-2b84-41ab-b4ac-2c7768decffb-3",
+          "image": "c:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\snaps\\frame-03-at-27.5s.png",
+          "time": 27.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794727881253,
+          "contentHash": "c69f6bb2f9b608910a4153b35f1e830fef090ec3b40454f212822f81a997ecce",
+          "revision": "38a17028-c071-4154-a55e-46e5e24cd04a",
+          "inputFingerprint": "bb143ff5bb69b8828df77e1a07e930ed4e3f777a09355f95da50b28a6dd27c8b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "230c9df5-2b84-41ab-b4ac-2c7768decffb-4",
+          "image": "c:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\snaps\\frame-04-at-29.75s.png",
+          "time": 29.75,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794727881253,
+          "contentHash": "c69f6bb2f9b608910a4153b35f1e830fef090ec3b40454f212822f81a997ecce",
+          "revision": "38a17028-c071-4154-a55e-46e5e24cd04a",
+          "inputFingerprint": "bb143ff5bb69b8828df77e1a07e930ed4e3f777a09355f95da50b28a6dd27c8b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "8e46119c-446a-491f-9f8c-404488c1e497": [
+        {
+          "scope": "full",
+          "id": "c42c3ab5-19d2-47c1-a5b4-49243a4f593f-0",
+          "image": "c:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\snaps_v2\\frame-00-at-8s.png",
+          "time": 8,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794744788487,
+          "contentHash": "62e4df8d7c8147f771f8a0cb61c169dbf5ae9da31333b4e995ee69bdcdadfea0",
+          "revision": "8e46119c-446a-491f-9f8c-404488c1e497",
+          "inputFingerprint": "3163b2cee7f3f543cf325ef0aa1eef20eb6d1c9a305abc06e35b6e05f59356e0",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c42c3ab5-19d2-47c1-a5b4-49243a4f593f-1",
+          "image": "c:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\snaps_v2\\frame-01-at-16.5s.png",
+          "time": 16.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794744788487,
+          "contentHash": "a0834fd2cae37460c2fb94633e7449f73a2142ea10ed0084938c4fcc0958db82",
+          "revision": "8e46119c-446a-491f-9f8c-404488c1e497",
+          "inputFingerprint": "3163b2cee7f3f543cf325ef0aa1eef20eb6d1c9a305abc06e35b6e05f59356e0",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c42c3ab5-19d2-47c1-a5b4-49243a4f593f-2",
+          "image": "c:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\snaps_v2\\frame-02-at-20.5s.png",
+          "time": 20.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794744788488,
+          "contentHash": "76bd33d382e2ca999c8c46790c42c9c860c60e37dee6945e265ace05d840c377",
+          "revision": "8e46119c-446a-491f-9f8c-404488c1e497",
+          "inputFingerprint": "3163b2cee7f3f543cf325ef0aa1eef20eb6d1c9a305abc06e35b6e05f59356e0",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c42c3ab5-19d2-47c1-a5b4-49243a4f593f-3",
+          "image": "c:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\snaps_v2\\frame-03-at-24s.png",
+          "time": 24,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794744788488,
+          "contentHash": "48e4975b2c4d8b9e3afe620f56eaff3a4f33ea2ecf45e11691cd1bef6dab4918",
+          "revision": "8e46119c-446a-491f-9f8c-404488c1e497",
+          "inputFingerprint": "3163b2cee7f3f543cf325ef0aa1eef20eb6d1c9a305abc06e35b6e05f59356e0",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c42c3ab5-19d2-47c1-a5b4-49243a4f593f-4",
+          "image": "c:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\snaps_v2\\frame-04-at-29.75s.png",
+          "time": 29.75,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794744788488,
+          "contentHash": "c69f6bb2f9b608910a4153b35f1e830fef090ec3b40454f212822f81a997ecce",
+          "revision": "8e46119c-446a-491f-9f8c-404488c1e497",
+          "inputFingerprint": "3163b2cee7f3f543cf325ef0aa1eef20eb6d1c9a305abc06e35b6e05f59356e0",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "149a65ef-8283-440d-8c85-677e3af7bf6d",
+      "completedAt": 1794744776258,
+      "output": "c:\\Users\\eduem\\OneDrive\\Desktop\\nasa 1\\brag-output\\brag.mp4",
+      "status": "completed",
+      "revision": "8e46119c-446a-491f-9f8c-404488c1e497"
+    },
+    "retainedRevisions": [
+      "8e46119c-446a-491f-9f8c-404488c1e497",
+      "38a17028-c071-4154-a55e-46e5e24cd04a"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,137 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      background: #07090e;
+      font-family: "Inter", sans-serif;
+      color: #ffffff;
+      overflow: hidden;
+    }
+    .glow {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 75% 45%, rgba(255, 87, 34, 0.25), transparent 55%);
+    }
+    .pill {
+      position: absolute;
+      top: 76px;
+      left: 96px;
+      background: #10b981;
+      color: #07090e;
+      font-family: "Space Mono", monospace;
+      font-weight: 700;
+      font-size: 22px;
+      letter-spacing: 2px;
+      padding: 10px 22px;
+      border-radius: 6px;
+    }
+    .title {
+      position: absolute;
+      top: 146px;
+      left: 96px;
+      width: 1040px;
+      font-family: "Archivo Black", sans-serif;
+      font-size: 72px;
+      line-height: 1.04;
+    }
+    .title span {
+      color: #ff5722;
+    }
+    .stats {
+      position: absolute;
+      top: 345px;
+      left: 96px;
+      display: flex;
+      gap: 26px;
+    }
+    .stat {
+      background: #0f172a;
+      border: 2px solid #10b981;
+      border-radius: 10px;
+      padding: 26px 30px;
+      width: 310px;
+    }
+    .stat-n {
+      font-family: "Archivo Black", sans-serif;
+      font-size: 54px;
+      color: #00f0ff;
+    }
+    .stat-l {
+      font-size: 28px;
+      color: #cbd5e1;
+      margin-top: 8px;
+      line-height: 1.25;
+    }
+    .motto {
+      position: absolute;
+      bottom: 125px;
+      left: 96px;
+      font-family: "Space Mono", monospace;
+      font-size: 28px;
+      font-weight: 700;
+      color: #f59e0b;
+      letter-spacing: 1px;
+    }
+    .badge {
+      position: absolute;
+      right: 96px;
+      bottom: 110px;
+      background: #0f172a;
+      border: 2px solid #ff5722;
+      border-radius: 10px;
+      padding: 22px 30px;
+      text-align: right;
+      font-family: "Space Mono", monospace;
+    }
+    .badge-t {
+      font-size: 22px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .badge-s {
+      font-size: 18px;
+      color: #94a3b8;
+      margin-top: 6px;
+    }
+  </style>
+  <div id="root" data-composition-id="s4_impact" data-width="1920" data-height="1080">
+    <div id="s4-bg" class="glow clip" data-start="0" data-duration="5"></div>
+    <div id="s4-pill" class="pill clip" data-layout-ignore data-start="0.05" data-duration="4.95">04 · CONTRIBUTION &amp; IMPACT (25–30s)</div>
+    <div id="s4-title" class="title clip" data-start="0.15" data-duration="4.85">
+      SAFER HUMAN <span>EXPLORATION ON MARS</span>
+    </div>
+
+    <div id="s4-stats" class="stats clip" data-start="0.5" data-duration="4.5">
+      <div class="stat">
+        <div class="stat-n">10 SITES</div>
+        <div class="stat-l">Real NASA/PDS terrain &amp; 16-layer safety analysis</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">O₂ SAFE</div>
+        <div class="stat-l">Route B cuts slope stress &amp; protects Bingo reserve</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">ZERO BLIND</div>
+        <div class="stat-l">Explicit uncertainty flags &amp; radiation shelters</div>
+      </div>
+    </div>
+
+    <div id="s4-motto" class="motto clip" data-start="1.2" data-duration="3.8">
+      EXPLORE WITH PURPOSE. DISCOVER BEYOND THE KNOWN.
+    </div>
+    <div id="s4-badge" class="badge clip" data-layout-ignore data-start="1.6" data-duration="3.4">
+      <div class="badge-t">NASA SPACE APPS CHALLENGE 2026</div>
+      <div class="badge-s">SEDE MANAGUA · MARS PATHFINDER</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#s4-pill", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.2, ease: "steps(2)" }, 0.05);
+    tl.fromTo("#s4-title", { opacity: 0, x: -36 }, { opacity: 1, x: 0, duration: 0.3, ease: "steps(3)" }, 0.15);
+    tl.fromTo("#s4-stats", { opacity: 0, y: 30, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.25, ease: "steps(3)" }, 0.5);
+    tl.fromTo("#s4-motto", { opacity: 0 }, { opacity: 1, duration: 0.25, ease: "steps(2)" }, 1.2);
+    tl.fromTo("#s4-badge", { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.25, ease: "steps(2)" }, 1.6);
+    window.__timelines["s4_impact"] = tl;
+  </script>
+</template>

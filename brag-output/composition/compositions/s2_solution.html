@@ -1,0 +1,164 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      background: #07090e;
+      font-family: "Inter", sans-serif;
+      color: #f8fafc;
+      overflow: hidden;
+    }
+    .grid-bg {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(0, 240, 255, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 240, 255, 0.06) 1px, transparent 1px);
+      background-size: 64px 64px;
+    }
+    .pill {
+      position: absolute;
+      top: 58px;
+      left: 96px;
+      background: #00f0ff;
+      color: #07090e;
+      font-family: "Space Mono", monospace;
+      font-weight: 700;
+      font-size: 22px;
+      letter-spacing: 2px;
+      padding: 10px 22px;
+      border-radius: 6px;
+    }
+    .title {
+      position: absolute;
+      top: 118px;
+      left: 96px;
+      font-family: "Archivo Black", sans-serif;
+      font-size: 56px;
+      line-height: 1.05;
+      color: #ffffff;
+    }
+    .title span {
+      color: #00f0ff;
+    }
+    .cards-grid {
+      position: absolute;
+      top: 235px;
+      left: 96px;
+      width: 960px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+    .mod-card {
+      background: #0f172a;
+      border: 2px solid #1e293b;
+      border-left: 8px solid #00f0ff;
+      border-radius: 10px;
+      padding: 24px;
+    }
+    .mod-card.orange {
+      border-left-color: #ff5722;
+    }
+    .mod-card.green {
+      border-left-color: #10b981;
+    }
+    .mod-card.amber {
+      border-left-color: #f59e0b;
+    }
+    .mod-k {
+      font-family: "Space Mono", monospace;
+      font-size: 20px;
+      color: #94a3b8;
+      font-weight: 700;
+    }
+    .mod-t {
+      font-size: 30px;
+      font-weight: 800;
+      margin-top: 8px;
+      color: #ffffff;
+    }
+    .mod-d {
+      font-size: 28px;
+      line-height: 1.28;
+      color: #cbd5e1;
+      margin-top: 10px;
+    }
+    .polaroid {
+      position: absolute;
+      right: 88px;
+      top: 235px;
+      width: 690px;
+      height: 550px;
+      background: #f8fafc;
+      padding: 18px 18px 72px 18px;
+      border-radius: 6px;
+      box-shadow: 0 28px 60px rgba(0, 0, 0, 0.75);
+    }
+    .polaroid img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 3px;
+    }
+    .polaroid-cap {
+      font-family: "Space Mono", monospace;
+      font-size: 20px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-top: 16px;
+      text-align: center;
+    }
+  </style>
+  <div id="root" data-composition-id="s2_solution" data-width="1920" data-height="1080">
+    <div id="s2-bg" class="grid-bg clip" data-start="0" data-duration="10"></div>
+    <div id="s2-pill" class="pill clip" data-layout-ignore data-start="0.05" data-duration="9.95">02 · THE SOLUTION (5–15s)</div>
+    <div id="s2-title" class="title clip" data-start="0.15" data-duration="9.85">
+      MARS PATHFINDER: <span>DATA TO DISCOVERY</span>
+    </div>
+
+    <div class="cards-grid">
+      <div id="s2-c1" class="mod-card clip" data-start="0.4" data-duration="9.6">
+        <div class="mod-k" data-layout-ignore>01 · NASA PDS + QGIS</div>
+        <div class="mod-t">16 Scientific Layers</div>
+        <div class="mod-d">HiRISE, MOLA, CRISM, THEMIS, RIMFAX, MEDA &amp; LoS.</div>
+      </div>
+      <div id="s2-c2" class="mod-card orange clip" data-start="2.2" data-duration="7.8">
+        <div class="mod-k" data-layout-ignore>02 · SCIENCE SCORING</div>
+        <div class="mod-t">SOI = αM + βG + γT + δQ</div>
+        <div class="mod-d">Ranks Cheyava Falls &amp; Gale Boxwork 2025 targets.</div>
+      </div>
+      <div id="s2-c3" class="mod-card green clip" data-start="4.6" data-duration="5.4">
+        <div class="mod-k" data-layout-ignore>03 · A* &amp; DIJKSTRA</div>
+        <div class="mod-t">3 Comparative Routes</div>
+        <div class="mod-d">Route A (Shortest), Route B (Min O₂), Route C (Science).</div>
+      </div>
+      <div id="s2-c4" class="mod-card amber clip" data-start="7.0" data-duration="3.0">
+        <div class="mod-k" data-layout-ignore>04 · LIVE SYNC</div>
+        <div class="mod-t">Control ↔ Field HUD</div>
+        <div class="mod-d">Real-time PLSS O₂ Bingo &amp; radiation shelter alerts.</div>
+      </div>
+    </div>
+
+    <div id="s2-p1" class="polaroid clip" data-layout-ignore data-start="0.4" data-duration="4.6">
+      <img src="assets/img/nasa_jezero.jpg" alt="NASA Jezero HiRISE" />
+      <div class="polaroid-cap">NASA MRO HiRISE · JEZERO CRATER (0.25 m/px)</div>
+    </div>
+    <div id="s2-p2" class="polaroid clip" data-layout-ignore data-start="5.0" data-duration="5.0">
+      <img src="assets/img/jezero_hirise.png" alt="3D Jezero Routes" />
+      <div class="polaroid-cap">3D TERRAIN + A* / DIJKSTRA ROUTES A, B, C + ROVER</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#s2-pill", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.2, ease: "steps(2)" }, 0.05);
+    tl.fromTo("#s2-title", { opacity: 0, x: -36 }, { opacity: 1, x: 0, duration: 0.3, ease: "steps(3)" }, 0.15);
+    tl.fromTo("#s2-c1", { opacity: 0, scale: 0.88 }, { opacity: 1, scale: 1, duration: 0.22, ease: "steps(3)" }, 0.4);
+    tl.fromTo("#s2-c2", { opacity: 0, scale: 0.88 }, { opacity: 1, scale: 1, duration: 0.22, ease: "steps(3)" }, 2.2);
+    tl.fromTo("#s2-c3", { opacity: 0, scale: 0.88 }, { opacity: 1, scale: 1, duration: 0.22, ease: "steps(3)" }, 4.6);
+    tl.fromTo("#s2-c4", { opacity: 0, scale: 0.88 }, { opacity: 1, scale: 1, duration: 0.22, ease: "steps(3)" }, 7.0);
+    tl.fromTo("#s2-p1", { opacity: 0, rotation: 5, scale: 0.9 }, { opacity: 1, rotation: 2, scale: 1, duration: 0.25, ease: "steps(3)" }, 0.4);
+    tl.fromTo("#s2-p2", { opacity: 0, rotation: -5, scale: 0.9 }, { opacity: 1, rotation: -1.5, scale: 1, duration: 0.25, ease: "steps(3)" }, 5.0);
+    window.__timelines["s2_solution"] = tl;
+  </script>
+</template>
